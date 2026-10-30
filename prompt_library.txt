@@ -1,0 +1,25 @@
+AI SIGNAL PROCESSING TUTOR — PROMPT LIBRARY
+
+Prompt 1 — Beginner/advanced topic explanation
+Explain [TOPIC] for an ECE student. Give a beginner explanation, an advanced explanation, the key formula with variable definitions, one real-world use, assumptions, and common misconceptions. Cite a reliable textbook or official documentation source. Clearly separate facts from simplifications.
+
+Prompt 2 — Python demonstration
+Write a complete Google Colab Python demonstration for [TOPIC] using NumPy and Matplotlib. Include axis labels, title, legend, expected output, at least three assertions or numerical checks, and edge cases. Do not claim the code has run unless it has actually been executed. Explain how I can independently verify it.
+
+Prompt 3 — Independent code review
+Review this code and formula for [TOPIC]: [PASTE CODE]. Look for formula errors, incorrect units, indexing mistakes, misleading plots, missing edge cases, and incorrect normalization. Do not rewrite silently: list each issue, why it matters, and a corrected version.
+
+Prompt 4 — Textbook comparison
+Compare the result of this experiment with a standard signal-processing theory result: [EXPERIMENT]. State the theoretical expectation, observed result, tolerance, and likely causes of mismatch. Ask for missing parameters rather than inventing them.
+
+Prompt 5 — Quiz
+Create 10 questions on sampling, aliasing, FFT, low-pass filters, convolution and noise. Include 6 MCQs, 2 numerical questions and 2 conceptual questions. Give a verified answer key with explanations. Recalculate all numerical answers independently.
+
+Prompt 6 — AI tool comparison
+Use the same [TOPIC] and task with ChatGPT, Gemini and Claude. Compare formula correctness, code execution, plot correctness, clarity and usefulness. Do not invent tool results. Mark untested claims as unverified.
+
+Prompt 7 — Presentation
+Create a 7-slide outline for an ECE capstone on an AI Signal Processing Tutor. Include objective, six concepts, AI tools, code demos, verification, findings, responsible AI limitations and references. Use concise slide text and specify which verified plot belongs on each slide.
+
+Prompt 8 — Responsible AI reflection
+Help me write a reflection explaining how I checked AI-generated explanations and code, how I documented mistakes, what AI cannot guarantee, and how I used sources and my own judgment. Do not claim work I did not perform.

@@ -1,0 +1,35 @@
+Execution command: python signal_processing_demos.py
+Return code: 0
+
+STDOUT:
+Sampling {'sample_count': 50, 'sampling_rate_hz': 50, 'signal_frequency_hz': 5}
+Aliasing {'original_hz': 9, 'sampling_hz': 12, 'alias_frequency_hz': 3}
+FFT {'peak_5_hz_amplitude': 1.0, 'peak_15_hz_amplitude': 0.5000000000000004}
+Low-pass filter {'input_noise_std': 0.5537606209387531, 'filtered_error_std': 0.19278970597901618, 'filter_taps': 9}
+Convolution {'x': [1, 2, 3], 'h': [1, 1], 'convolution': [1, 3, 5, 3]}
+Noise {'target_noise_std': 0.3, 'measured_noise_std': 0.2318352225017351}
+
+
+STDERR:
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+/mnt/data/AI_Signal_Processing_Tutor_Project/signal_processing_demos.py:18: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.grid(True); plt.legend(); plt.tight_layout(); plt.show()
+/mnt/data/AI_Signal_Processing_Tutor_Project/signal_processing_demos.py:31: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.grid(True); plt.legend(); plt.tight_layout(); plt.show()
+/mnt/data/AI_Signal_Processing_Tutor_Project/signal_processing_demos.py:47: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.title("FFT magnitude spectrum"); plt.grid(True); plt.tight_layout(); plt.show()
+/mnt/data/AI_Signal_Processing_Tutor_Project/signal_processing_demos.py:69: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.tight_layout(); plt.show()
+/mnt/data/AI_Signal_Processing_Tutor_Project/signal_processing_demos.py:84: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.grid(True); plt.tight_layout(); plt.show()
+/mnt/data/AI_Signal_Processing_Tutor_Project/signal_processing_demos.py:99: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.grid(True); plt.legend(); plt.tight_layout(); plt.show()

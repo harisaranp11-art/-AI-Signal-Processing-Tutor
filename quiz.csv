@@ -1,0 +1,11 @@
+Question,Option A,Option B,Option C,Option D,Correct Answer,Explanation
+What does sampling do?,Converts a continuous-time signal to discrete-time samples,Amplifies every frequency,Removes all noise,Converts analog voltage directly to text,A,Sampling records signal values at discrete time instants.
+What is the Nyquist condition for a band-limited signal with highest frequency B?,fs < B,fs = B/4,fs > 2B,fs = 0,C,The sampling rate must be greater than twice the highest frequency for ideal reconstruction.
+What is aliasing?,A type of amplifier,Frequency ambiguity caused by inadequate sampling,A window function,A convolution output,B,Components above the Nyquist frequency can appear at lower frequencies.
+Which NumPy function computes a real-input FFT efficiently?,np.rfft,np.random,np.gradient only,np.linspace,A,np.fft.rfft computes the one-sided FFT for real-valued inputs.
+A signal contains 5 Hz and 15 Hz tones. What peaks should its magnitude spectrum show ideally?,5 Hz and 15 Hz,0 Hz only,50 Hz only,No peaks,A,Each sinusoidal component appears at its corresponding frequency bin when coherent sampling is used.
+What is a low-pass filter designed to do?,Pass low frequencies and attenuate higher frequencies,Pass only high frequencies,Increase every noise component,Reverse time,A,A low-pass filter preserves low-frequency content while reducing higher-frequency content.
+"Calculate the full convolution of x=[1,2,3] and h=[1,1].","[1,2,3]","[1,3,5,3]","[2,4,6]","[1,1,2,3]",B,"Full convolution: [1, 3, 5, 3]."
+"A 5 Hz sine is sampled at 100 Hz for 1 second, endpoint excluded. How many samples are recorded?",5,50,100,101,C,N = fs × duration = 100 × 1 = 100.
+What is white Gaussian noise?,A deterministic sine wave,Random noise with Gaussian amplitude distribution and ideally flat power spectral density,A low-pass filter,A sampling theorem,B,Gaussian describes the amplitude distribution; white describes a flat ideal power spectral density.
+Why should AI-generated signal-processing code be tested?,AI output is always correct,Testing is unnecessary if code looks neat,"AI can produce incorrect formulas, code, or plots",It prevents all bugs automatically,C,AI can make mistakes; execute tests and compare results against trusted references.
